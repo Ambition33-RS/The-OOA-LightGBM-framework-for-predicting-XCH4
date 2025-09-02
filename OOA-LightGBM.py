@@ -185,7 +185,7 @@ if choice.lower() == 'yes':
 
     # Perform global predictions using the trained model
     model = joblib.load(r"C:\Yourfiles\OOA-LightGBM.pkl")
-    input_csv = r"D:\A_CH4_China\machine_learning\predicted_features_csv\features_23122402.csv"
+    input_csv = r"C:\Yourfiles\features.csv"
     data = pd.read_csv(input_csv)
     data['ws'] = np.sqrt(data['u10'] ** 2 + data['v10'] ** 2)
     features = ['elevation', 'blh', 'ssr', 'ws', 't2m', 'tp', 'e', 'swvl', 'evi', 'ntl']
