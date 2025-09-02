@@ -7,7 +7,7 @@ Code and workflow for an OOA-optimized LightGBM model to predict atmospheric met
 - Transferable framework for other environmental modeling applications
 
 # Requirements
-- Python 3.8+
+- Python 3.10+
 - numpy
 - pandas
 - lightgbm
